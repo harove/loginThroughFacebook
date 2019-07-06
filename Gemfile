@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
 
 gem 'omniauth-facebook'
@@ -32,11 +32,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'bootsnap', '>= 1.1.0', require: false
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'devise', git:'https://github.com/plataformatec/devise.git'
+gem 'devise', git:'https://github.com/plataformatec/devise'
 gem 'faker'
 
 group :development, :test do
